@@ -115,7 +115,7 @@ import {toast} from 'sonner'
 
                 {shouldShowOnBoarding ? (
                   <p className='text-sm leading-6 text-slate-400'>
-                  Comece <button type='button' onClick={handleStartRecording} className='font-medium text-lime-400 hover:underline'>gravando uma nota</button> em áudio ou se preferir <button type='button' onClick={handleStartEditor} className='font-medium  text-lime-400 hover:underline'>utilize apenas texto.</button>
+                  Comece <button type='button' onClick={handleStartRecording} className='font-medium text-amber-400 hover:underline'>gravando uma nota</button> em áudio ou se preferir <button type='button' onClick={handleStartEditor} className='font-medium  text-amber-400 hover:underline'>utilize apenas texto.</button>
                   </p>
                 ) : (
                   <textarea 
@@ -140,7 +140,7 @@ import {toast} from 'sonner'
                 <button 
                 type='button'
                 onClick={handleSaveNote}
-                className='w-full bg-lime-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-lime-500'
+                className='w-full bg-amber-400 py-4 text-center text-sm text-lime-950 outline-none font-medium hover:bg-amber-500'
                 >
                 Salvar nota
                 </button>
